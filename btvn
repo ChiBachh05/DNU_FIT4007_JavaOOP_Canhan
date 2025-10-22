@@ -1,0 +1,17 @@
+package btvn;
+
+public class bai1phan1 {
+    public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Tong = " + (a + b));
+        System.out.println("Hieu = " + (a - b));
+        System.out.println("Tich = " + (a * b));
+        if (b != 0) {
+            System.out.println("Thuong = " + ((double) a / b));
+        } else {
+            System.out.println("Thuong: chia cho 0!");
+        }
+    }
+}
